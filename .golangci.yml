@@ -1,0 +1,19 @@
+run:
+  tests: true
+
+linters:
+  disable-all: true
+  enable:
+    - unused
+    - staticcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - typecheck
+    - bodyclose
+
+issues:
+  fix: true
+
+severity:
+  default-severity: error
